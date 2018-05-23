@@ -42,3 +42,21 @@ code {
   background-color: #E9EAEE;
   padding: 10px;
 }
+#content p {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+#section_links ul {
+  list-style: none;
+}
+.wrapper {
+  width: 100%;
+}
+footer {
+  margin-top: 20px;
+  color: white;
+  height: 45px; 
+}
+footer div {
+  margin-top:10px;
+}
