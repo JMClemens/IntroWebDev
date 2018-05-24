@@ -1,0 +1,40 @@
+#text {
+	color: white;
+	margin-left: 50%;
+}
+#wrapper {
+	width: 90%;
+	margin-left: 5%;
+}
+#header {
+	width: 100%;
+	border: 1px solid black;
+	height: 50px;
+}
+.list-nostyle {
+	list-style-type: none;
+	margin-top: 0;
+}
+.navlink {
+	display: inline-block;
+	background-color: cyan;
+	height: 50px;
+}
+.list-nostyle li:first-child {
+	margin-left: 39%;
+}
+.picdiv img{
+	width: 100%;
+	height: auto;
+}
+.picdiv {
+	float: left;
+	width: 50%;
+}
+.p2 {
+	clear: right;
+}
+.content {
+	background-color: rebeccapurple;
+	width: 100%
+}
