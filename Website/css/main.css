@@ -21,16 +21,19 @@ code {
     font-size: 90%;
     line-height: 1.2em;
     font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
-
     display: inline; 
     color: #555555;
     padding: 1em 1em;
     background: #f4f4f4;
+    margin-left:20px;
 }
 #content code {
   display: block;
   padding: 0.5em 1em;
   border: 1px solid #bebab0;
+}
+code * {
+  padding-top: 10px;
 }
 #page_title {
   margin-left: 5vw;
