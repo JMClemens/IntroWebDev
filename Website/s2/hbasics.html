@@ -58,13 +58,15 @@
     </div>
     <div class="row justify-content-center">
       <div id="content" class="col-sm-12 col-md-10">
+				<h4>Making your first website</h4>
+				<p>Now that you have a text editor and browser ready, we're ready to start creating a website. First, we'll need an HTML file to start writing our code in. So, open up your text editor, put a blank space in the document, and then save the file as <strong>"home.html"</strong>. Make sure that your file is actually being saved as an HTML document, with the <strong>.html</strong> file extension, because it might be saved as a .txt file by default. Now we're ready to start writing code! Let's learn about HTML's language some more.</p>
         <h4>Syntax</h4>
         <p>HTML is a tagging language. This means that the syntax, or set of language rules for html, is built from tags. For example:</p>
         <code class="col-md-6">
           &lt;p&gt;This is a paragraph tag, used for text!&lt;/p&gt;
         </code>
         <br>
-        <p>All HTML documents must contain some specific tags. Here is a template you can use to start your first website.</p>
+        <p>All HTML documents must contain some specific tags. Here is a template you can use to start your first website. I recommend that you write this code as you follow along, which helps build muscle memory. In comparison, copying code might hinder the learning process.</p>
         <code class="col-md-11">
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;!-- 0. This is a comment tag --&gt;
           <br>
@@ -88,13 +90,52 @@
         <br>
         <p>Let's take a look at what this code is doing.</p>
         <ol start="0">
-					<li>This is a comment tag. &lt;!-- Comments are placed within a single tag like this --&gt;</li>
+					<li>This is a comment tag. &lt;!-- Comments are placed within a single tag like this --&gt;. When a comment is written into your HTML document, the browser will ignore whatever you put between these tags. Comments are used to highlight what code is doing. This make it easier to work on when you go back to it later.</li>
           <li>This line tells the browser what version of HTML the page is written in. <strong>Note</strong> this is a single tag, which doesn't need a closing tag. Most tags need a pair to close them. See below.</li>
           <li>All of our HTML code belongs within the &lt;html&gt;&lt;/html&gt; tags. <strong>Note </strong>how this tag needs a pair, one to open where HTML can begin, and one to close it (item 2.2 above).</li>
           <li>Inbetween the head tags is used to hold different pieces of information about our website. For example, we can link external pieces of code to our website here. We can also include CSS style tags or JS scripting tags to include some more functionality to our website.</li>
           <li>Inbetween the body tags is where all of the website's content will go. In this example, we just have the &lt;p&gt;&lt;/p&gt; tags.</li>
-          <li>The paragraph tag is used to hold text. As you can see, all of our current content falls within our &lt;body&gt;&lt;/body&gt; tags.</li>
+          <li>The paragraph tag is used to hold text. As you can see, all of our current content falls within our &lt;body&gt;&lt;/body&gt; tags. When you open your HTML document with a browser, you'll see our text "Hello world!" is displayed.</li>
         </ol>
+				<h4>Content vs. Structure Tags</h4>
+				<p>We can roughly classify HTML tags into two different categories, content tags and structure tags. As we saw above, our &lt;p&gt;&lt;/p&gt; are an example set of content tags. These types of tags are used to insert specific types of content, which is text in this case. The rest of the code we've written thus far is made up of structure tags. However, all of these structure tags are necessary for your HTML to be rendered properly. There are plenty of other structure tags that help create structure for your website. There are also a plethora of content tags that can be used to add different pieces of content to your website.</p>
+				<h5>Structure Tags</h5>
+				<p>This table below includes the structure tags we've seen thus far, and plenty of new ones to help you build the structure of your website.</p>
+				<table class="table table-bordered table-striped">
+					<thead class="thead-dark">
+						<th>Tag(s)</th>
+						<th>Use</th>
+						<th>Example Code Snippet</th>
+					</thead>
+					<tr>
+						<td>&lt;!doctype html&gt;</td>
+						<td>Defines the version of html that your document is. This doctype declaration is for HTML5. This should be the first piece of code in your document.</td>
+						<td><code>&lt;!doctype html&gt;</code></td>
+					</tr>
+					<tr>
+						<td>&lt;head&gt;&lt;/head&gt;</td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+				</table>
+				<h5>Content Tags</h5>
+				<table class="table table-bordered table-striped">
+					<thead class="thead-dark">
+						<th>Tag(s)</th>
+						<th>Use</th>
+						<th>Example Code Snippet</th>
+					</thead>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+				</table>
 				
         <div class="row">
           <div class="col text-left">
