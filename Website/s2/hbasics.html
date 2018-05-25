@@ -66,7 +66,7 @@
         <br>
         <p>All HTML documents must contain some specific tags. Here is a template you can use to start your first website.</p>
         <code class="col-md-11">
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;!-- This is a comment tag --&gt;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;!-- 0. This is a comment tag --&gt;
           <br>
           &lt;!doctype html&gt; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;!-- 1. HTML5 Doctype declaration --&gt;
           <br>
@@ -87,14 +87,15 @@
         </code>
         <br>
         <p>Let's take a look at what this code is doing.</p>
-        <ol>
+        <ol start="0">
+					<li>This is a comment tag. &lt;!-- Comments are placed within a single tag like this --&gt;</li>
           <li>This line tells the browser what version of HTML the page is written in. <strong>Note</strong> this is a single tag, which doesn't need a closing tag. Most tags need a pair to close them. See below.</li>
-          <li>All of our HTML code belongs within the &lt;html&gt; tags. <strong>Note </strong>how this tag needs a pair, one to open where HTML can begin, and one to close it (item 2.2 above).</li>
+          <li>All of our HTML code belongs within the &lt;html&gt;&lt;/html&gt; tags. <strong>Note </strong>how this tag needs a pair, one to open where HTML can begin, and one to close it (item 2.2 above).</li>
           <li>Inbetween the head tags is used to hold different pieces of information about our website. For example, we can link external pieces of code to our website here. We can also include CSS style tags or JS scripting tags to include some more functionality to our website.</li>
-          <li>Inbetween the body tags is where all of the website's content will go. In this example, we just have the &lt;p&gt; tag.</li>
-          <li></li>
-          
+          <li>Inbetween the body tags is where all of the website's content will go. In this example, we just have the &lt;p&gt;&lt;/p&gt; tags.</li>
+          <li>The paragraph tag is used to hold text. As you can see, all of our current content falls within our &lt;body&gt;&lt;/body&gt; tags.</li>
         </ol>
+				
         <div class="row">
           <div class="col text-left">
             <a href="../s1/environment.html"><< Prev</a>
