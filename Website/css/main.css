@@ -49,6 +49,15 @@ code * {
   margin-left: 5px;
   margin-right: 5px;
 }
+.table tr td:first-child {
+	width: 15%;
+}
+.table tr td:nth-child(2) {
+	width:35%;
+}
+.code-cap {
+	margin-left: 20px !important;
+}
 #section_links ul {
   list-style: none;
 }
